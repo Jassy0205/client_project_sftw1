@@ -1,0 +1,35 @@
+.cards-content{
+    margin-top: 70px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10px;
+}
+
+.card-style{
+    padding-bottom: 10px;
+    margin-bottom: 10px; 
+    margin-right: 20px;
+    background-color: #fbfbfb;
+    width: 20%;
+
+    .ant-card-head{
+        background-color: #b11919;
+    }
+
+    .ant-card-head-title{
+        font-size: 19px;
+        color: beige;
+        padding: 10px;
+        text-transform: capitalize;
+    }
+
+    .ant-card-cover img
+    {
+        height: 310px;
+        width: 220px;
+        margin: 20px;
+    }
+}
