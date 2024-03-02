@@ -1,35 +1,357 @@
-.cards-content{
-    margin-top: 70px; 
+//primer div utilizado en el input text, visualicación de correo
+//y redirección a redes sociales
+.busqueda-inicial
+{
+    display: flex;
+    justify-content: center;
+    background-color: #ffb71b;
+    align-items: center;
+
+    @media screen and (max-width: 768px) {
+        flex-wrap: wrap; // Ajusta el tamaño del texto del input para pantallas más pequeñas
+    }
+}
+
+//Visualización del correo para etención al cliente
+text{
+    color: #02275c;
+    margin-right: 300px;
+    margin-left: 130px
+}
+
+//Botones con el logo de las redes sociales
+.ant-btn.ant-btn-circle.ant-btn
+{
+    background-color: #02275c;
+    color:white;
+    border: black;
+    margin-left: 10px;
+    
+    &:hover {
+        transform: translateY(-5px); // Mueve el botón hacia arriba cuando se pasa el ratón por encima
+    }
+}
+
+//Search text y button
+.input {
+    width: 383px; // El campo de entrada ocupa el ancho completo del contenedor
+    padding: 10px; // Espaciado interno para mayor comodidad
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+//Seaarch buttón 
+.ant-input-search >.ant-input-group >.ant-input-group-addon:last-child .ant-input-search-button
+{
+    width: 32px;
+    height: 36px;
+    background-color: #02275c;
+    margin-inline-end: -1px;
+    border-start-start-radius: 0;
+    border-start-end-radius: 4px;
+    border-end-end-radius: 4px;
+    border-end-start-radius: 0;
+    border: black;
+    color:white;
+}
+
+//Search button
+.ant-input-group >.ant-input:first-child
+{
+    border-start-start-radius: 4px;
+    border-start-end-radius: 4px;
+    border-end-end-radius: 4px;
+    border-end-start-radius: 4px;
+    height: 36px;
+    font-size: 1.13em;
+    font-weight: 600; // Hace el texto más grueso
+    background-color: rgb(230, 230, 230);
+}
+
+// ---------------------------------------------------------------------------------------------------------------//
+
+//div donde se encuentra el menú horizontal y el logo
+.menu-principal
+{
+    margin-top: 10px; 
+    display: flex;
+    justify-content: center;
+}
+
+//Menú horizontal
+.ant-menu
+{
+    background-color: white;
+    width: 800px;
+    margin-left: 100px;
+    margin-top: -10px;
+
+    .ant-menu-submenu-title 
+    {
+        margin-top: 2px;
+        height: 30px;
+        color: #02275c; 
+        font-size: 1.13em;
+        font-weight: bold; // Hace el texto más grueso
+    }
+
+    @media screen and (max-width: 700px) {
+        width: 100px; // Ajusta el tamaño del texto del input para pantallas más pequeñas
+
+        .ant-menu-submenu-title 
+        {
+            color: #02275c; 
+            font-size: 1.0em;
+            font-weight: normal; // Hace el texto más grueso
+        }
+    }
+} 
+
+//items del menú
+.ant-menu-light.ant-menu-horizontal >.ant-menu-item
+{
+    margin-top: 2px;
+    height: 30px;
+    color: #02275c; 
+    margin-right: 7px;
+    font-size: 1.13em;
+    font-weight: bold; // Hace el texto más grueso
+}
+
+//Logo de La Santé colocado al lado del menú
+.logo
+{
+    width: 180px;
+    height: 33px;
+    padding: 10px;
+    margin-top: -10px;
+    margin-left: 26px;
+    margin-bottom: 10px;
+}
+
+//Div donde se encuentra la primera imagen visualizada
+//y el texto que acompaña a la misma
+.div-img-principal
+{
+    background-color: #ffb71b;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: flex-end; 
+    margin-bottom: 76px;
+}
+
+//Primera imagen
+.img-principal
+{
+    width: 77%;
+    height: auto;
+}
+
+//Texto que acompaña a la primera imagen
+.img-text
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #02275c; 
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 3.5vw; /* Tamaño del texto */
+    font-weight: 900; /* Peso de la fuente */
+    text-align: left; /* Alineación del texto */
+
+    @media screen and (max-width: 768px) {
+        font-size: 4.3vw;
+        width: 40%;
+        left: -13%; // Ajusta el tamaño del texto del input para pantallas más pequeñas
+    }
+}
+
+//---------------------------------------------------------------------------------------------------------------//
+.cards-1-text{
+    font-size: 1.7vw; /* Tamaño del texto */
+    text-align: center; /* Alineación del texto */
+    position: absolute;
+    color: #02275c; 
+    width: 35.7vw;
+    height: 100%;
+    top: auto;
+    left: 20vw;
+
+    span
+    {
+        font-weight: 700; /* Peso de la fuente */
+    }
+
+    @media screen and (max-width: 768px) {
+        left: 0vw;
+        width: 55.7vw;
+        font-size: 2.7vw; /* Tamaño del texto */
+    }
+}
+
+.div-cards-1{
+    margin-top: 180px; 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    justify-content: center;
     align-content: center;
     border-radius: 10px;
+    justify-content: space-around;
 }
 
 .card-style{
     padding-bottom: 10px;
-    margin-bottom: 10px; 
-    margin-right: 20px;
-    background-color: #fbfbfb;
-    width: 20%;
-
-    .ant-card-head{
-        background-color: #b11919;
-    }
-
-    .ant-card-head-title{
-        font-size: 19px;
-        color: beige;
-        padding: 10px;
-        text-transform: capitalize;
-    }
+    margin-left: 18px;
+    width:17.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
 
     .ant-card-cover img
     {
-        height: 310px;
-        width: 220px;
+        height: auto;
+        width: auto;
         margin: 20px;
+    }
+
+    .ant-card-meta-description
+    {
+        color: #02275c;
+    }
+
+    .ant-card-meta-title
+    {
+        color: #02275c;
+        margin: auto;
+        font-weight: 700; 
+    }
+
+    .ant-card-body {
+        padding: 24px;
+        border-radius: 0 0 8px 8px;
+        width: auto;
+    }
+
+    @media (max-width: 950px) {
+        width: 25vw;
+        margin-right: 5px;
+    }
+
+    @media (max-width: 760px) {
+        width: 43vw;
+        margin-bottom: 10px;
+    }
+}
+
+.card-style:nth-child(1) {
+    background-color: #91d5d8c4; /* Azul claro*/
+}
+
+.card-style:nth-child(2) {
+    background-color: #e3bc707a; /* Naranja claro*/
+}
+
+.card-style:nth-child(3) {
+    background-color: #5f366670; /* Morado claro*/
+}
+
+.card-style:nth-child(4) {
+    background-color: #b36c937a; /* Rosado claro*/
+}
+
+.card-style:nth-child(5) {
+    background-color: rgb(141, 200, 149, 0.35); /* Azul claro*/
+}
+
+.div-img-2
+{
+    position: relative;
+    margin-top: 100px; 
+    height: 40vw;
+    background-color: white;
+}
+
+.img-2
+{
+    margin-left: 2px;
+    width: 98.7vw;
+    height: 40vw;
+}
+
+.subdiv-img-2
+{
+    background-color: #ffffff8c;
+    position: absolute;
+    top: 18vw;
+    left: 48.6vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 50vw;
+    height: 17.6vw;
+}
+
+.text-img-2
+{
+    font-size: 2.5vw;
+    color: #02275c;
+    font-weight: 700; 
+    margin-left: 10px;
+}
+
+.text-2-img-2
+{
+    font-size: 1.3vw;
+    color: #02275c;
+    margin-left: 10px;
+    width: 48vw;
+}
+
+.button-img-2
+{
+    font-size: 1.3vw;
+    color: white;
+    background-color: #ffb71b;
+    margin-left: 10px;
+    margin-top: 17px;
+    width: 20vw;
+    height: 3vw;
+}
+
+@media (max-width: 760px) {
+    .subdiv-img-2{
+        top: 0;
+        left: 1%;
+        width: 95vw;
+        height: auto;
+    }
+
+    .text-img-2
+    {
+        font-size: 5.4vw;
+        margin-top: 0px;
+    }
+
+    .text-2-img-2
+    {
+        font-size: 3.1vw;
+        width: 86vw;
+        margin-top: -15px;
+    }
+
+    .button-img-2
+    {
+        font-size: 3.1vw;
+        width: 50vw;
+        height: auto;
     }
 }
