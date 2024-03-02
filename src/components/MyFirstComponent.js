@@ -141,46 +141,58 @@ export const MyFirstComponent = () => {
         </div>
           
         <div className = "div-products">
-          <h3 className = "h3-products">Conoce algunos de nuestros productos</h3>
           <div className = "div-cards">
-          <Card
-            className = "card-product"
-            cover = {<img alt={"oft"} src={"https://www.lasante.com.co/userfiles/2022/01/1401-Bromhexina-La-Sante.png"} />}
-          ></Card>
-          <Card
-            className = "card-product"
-            cover = {<img alt={"oft"} src={"https://www.lasante.com.co/userfiles/2022/01/1401-Acetaminofen-La-Sante.png"} />}
-          ></Card>
+            <div className = "div-h3-products">
+              <h3 className = "h3-products">Conoce algunos de nuestros productos</h3>
+            </div>
+            <Card
+              className = "card-product"
+              cover = {<img alt={"oft"} src={"https://www.lasante.com.co/userfiles/2022/01/1401-Bromhexina-La-Sante.png"} />}
+            ></Card>
+            <Card
+              className = "card-product"
+              cover = {<img alt={"oft"} src={"https://www.lasante.com.co/userfiles/2022/01/1401-Acetaminofen-La-Sante.png"} />}
+            ></Card>
           </div>
+
           <div className = "div-info">
+
             <div className = "div-info-card">
-              <h4 className = "title-info">Infecciones virales</h4>
               <Card
                 className = "card-info"
+                title = "Infecciones virales"
                 cover = {<img alt={"oft"} src={"https://www.lasante.com.co/userfiles/2022/02/WebLS_FotoBlog_InfVirales.jpg"} />}
               ></Card>
-              <div className = "subdiv-info">
+              <div className = "subdiv-info-1">
                 <text className = "text-info">Infecciones virales Causadas por virus, que son gérmenes muy pequeños, compuestos de material genético (ADN, ARN) con un recubrimiento de proteínas. Los virus pueden causar enfermedad</text>
-                
               </div>
-              <div>
-                <Button className = "button-info-1" type="primary">Leer más</Button>
-              </div>
+              <Button className = "button-info-1" type="primary">Leer más</Button>
             </div>
-            <div>
-              <h4 className = "title-info">Bacterias</h4>
+
+            <div className = "div-info-card">
               <Card
+                title = "Bacterias"
                 className = "card-info"
                 cover = {<img alt={"oft"} src={"https://www.lasante.com.co/userfiles/2022/02/WebLS_FotoBlog_Bacterias.jpg"} />}
               ></Card>
+              <div className = "subdiv-info-2">
+                <text className = "text-info">Son seres vivos que contienen sólo una célula (unicelulares). Solo se pueden observar con un microscopio…</text>
+              </div>
+              <Button className = "button-info-1" type="primary">Leer más</Button>
             </div>
-            <div className = "card-info">
-              <h4 className = "title-info">Prevencion covid 19</h4>
+
+            <div className = "div-info-card">
               <Card
                 className = "card-info"
+                title = "Prevencion covid 19"
                 cover = {<img alt={"oft"} src={"https://www.lasante.com.co/userfiles/2022/02/WebLS_FotoBlog_PrevencionCov19.jpg"} />}
               ></Card>
+              <div className = "subdiv-info-3">
+                <text className = "text-info">Tips de prevención Covid 19 en tu vehículo y para tu mascota</text>
+              </div>
+              <Button className = "button-info-1" type="primary">Leer más</Button>
             </div>
+
           </div>
         </div>
     </>
