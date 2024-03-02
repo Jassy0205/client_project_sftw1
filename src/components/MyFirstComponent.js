@@ -140,6 +140,49 @@ export const MyFirstComponent = () => {
           </div>
         </div>
           
+        <div className = "div-products">
+          <h3 className = "h3-products">Conoce algunos de nuestros productos</h3>
+          <div className = "div-cards">
+          <Card
+            className = "card-product"
+            cover = {<img alt={"oft"} src={"https://www.lasante.com.co/userfiles/2022/01/1401-Bromhexina-La-Sante.png"} />}
+          ></Card>
+          <Card
+            className = "card-product"
+            cover = {<img alt={"oft"} src={"https://www.lasante.com.co/userfiles/2022/01/1401-Acetaminofen-La-Sante.png"} />}
+          ></Card>
+          </div>
+          <div className = "div-info">
+            <div className = "div-info-card">
+              <h4 className = "title-info">Infecciones virales</h4>
+              <Card
+                className = "card-info"
+                cover = {<img alt={"oft"} src={"https://www.lasante.com.co/userfiles/2022/02/WebLS_FotoBlog_InfVirales.jpg"} />}
+              ></Card>
+              <div className = "subdiv-info">
+                <text className = "text-info">Infecciones virales Causadas por virus, que son gérmenes muy pequeños, compuestos de material genético (ADN, ARN) con un recubrimiento de proteínas. Los virus pueden causar enfermedad</text>
+                
+              </div>
+              <div>
+                <Button className = "button-info-1" type="primary">Leer más</Button>
+              </div>
+            </div>
+            <div>
+              <h4 className = "title-info">Bacterias</h4>
+              <Card
+                className = "card-info"
+                cover = {<img alt={"oft"} src={"https://www.lasante.com.co/userfiles/2022/02/WebLS_FotoBlog_Bacterias.jpg"} />}
+              ></Card>
+            </div>
+            <div className = "card-info">
+              <h4 className = "title-info">Prevencion covid 19</h4>
+              <Card
+                className = "card-info"
+                cover = {<img alt={"oft"} src={"https://www.lasante.com.co/userfiles/2022/02/WebLS_FotoBlog_PrevencionCov19.jpg"} />}
+              ></Card>
+            </div>
+          </div>
+        </div>
     </>
   );
 };
