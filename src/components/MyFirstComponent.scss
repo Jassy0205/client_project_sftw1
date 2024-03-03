@@ -380,31 +380,42 @@ text{
 .div-h3-products
 {
     position: absolute;
-    left: 27vw;
-    top: 120vw;
-    width:48vw;
+    left: 23vw;
+    top: -4vw;
+    width: 48vw;
+    height: 8vw;
     background-color: white;
+
+    @media (max-width: 768px) {
+        width: 78vw;
+        height: 10vw;
+        left: 6vw;
+    }
 }
 
 .h3-products{
-    margin-bottom: 60px;
-    margin-left: 30px;
-    position: relative;
-    width: 44.5vw;
+    width: 45vw;
     height: 3.3vw;
-    font-size: 30px;
+    font-size: 2vw;
     font-weight: bold;
     color: #02275c;
-    line-height: 45px;
     text-align: center;
     background-color: #ffb71b;
     border-radius: 40px;
+    margin-left: 1.5vw; 
+
+    @media (max-width: 768px) {
+        margin-top: 1vw; 
+        width: 75vw;
+        height: 5.6vw;
+        font-size: 4vw;
+    }
 }
 
 .card-product {
     width: 40vw;
     margin: 4px;
-    height: 400px;
+    height: 27.6vw;
     margin-top: 80px; 
 }
 
@@ -419,11 +430,18 @@ text{
     align-items: center;
     justify-content: center;
     width: 90vw;
+    position: relative;
 }
 
 .div-info {
     display: flex;
-    flex-direction: row;
+    //flex-direction: row;
+    margin-top: -23px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-around;
 }
 
 .div-info-card {
@@ -432,10 +450,11 @@ text{
     align-content: space-around;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .card-info {
-    height: 100px;
+    height: 28vw;
     //padding-bottom: 10px;
     margin-right: 30px;
     width: 24vw;
@@ -463,8 +482,8 @@ text{
 .subdiv-info-1 {
     background: #001C6C80;
     position: absolute;
-    left: 9.6vw;
-    top: 181.9vw;
+    left:-0.8vw;
+    top: 19vw;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -476,8 +495,8 @@ text{
 .subdiv-info-2 {
     background: #001C6C80;
     position: absolute;
-    left: 35.2vw;
-    top: 183.9vw;
+    left: -1.2vw;
+    top: 21vw;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -489,8 +508,8 @@ text{
 .subdiv-info-3 {
     background: #001C6C80;
     position: absolute;
-    left: 61.5vw;
-    top: 185.7vw;
+    left: -1vw;
+    top: 22.8vw;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -512,11 +531,113 @@ text{
     color: white;
     background-color: #ffb71b;
     width: 10vw;
-    margin-top: 340px;
+    margin-top: 45px;
     height: auto;
 
     border-start-start-radius: 3px;
     border-start-end-radius: 3px;
     border-end-end-radius: 3px;
     border-end-start-radius: 3px;
+}
+
+@media (max-width: 950px) {
+
+    .card-info {
+        width: 40vw;
+        margin-right: 5px;
+        margin-top:0px;
+    }
+
+    .div-info-card
+    {
+        margin-bottom: 70px;
+        height: 60vw;
+        margin-right: 10px;
+        width: 43vw;
+    }
+
+    .subdiv-info-1 {
+        top: 33.5vw;
+        width: 48vw;
+        height: auto;
+        left: auto;
+    }
+
+    .subdiv-info-2 {
+        top:38.5vw;
+        width: 48vw;
+        height: auto;
+        left: auto;
+    }
+
+    .subdiv-info-3 {
+        top: 41.5vw;
+        width: 48vw;
+        height: auto;
+        left: auto;
+    }
+
+    .text-info{
+        font-size: 2vw;
+        width: 42vw;
+        margin-bottom: 10px;
+    }
+
+    .button-info-1 {
+        font-size: 3vw;
+        width: 30vw;
+        margin-top: 190px;
+        height: auto;
+    }
+}
+
+@media (max-width: 460px) {
+
+    .div-info-card
+    {
+        margin-bottom: 50px;
+        height: auto;
+        width: 76vw;
+    }
+
+    .card-info {
+        width: 75vw;
+        height: auto;
+        margin-top: 0px;
+        //margin-bottom: 300px;
+    }
+
+    .subdiv-info-1 {
+        top: 68vw;
+        width: 82vw;
+        height: auto;
+        left: auto;
+    }
+
+    .subdiv-info-2 {
+        top: 70.6vw;
+        width: 81vw;
+        height: auto;
+        left: -2.8vw;
+    }
+
+    .subdiv-info-3 {
+        top: 74.8vw;
+        width: 82vw;
+        height: auto;
+        left: -2.8vw;
+    }
+
+    .text-info{
+        font-size: 3vw;
+        width: 67vw;
+        margin-bottom: 10px;
+    }
+
+    .button-info-1 {
+        font-size: 3vw;
+        width: 30vw;
+        margin-top: 2px;
+        height: auto;
+    }
 }

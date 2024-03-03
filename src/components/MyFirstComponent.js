@@ -142,9 +142,11 @@ export const MyFirstComponent = () => {
           
         <div className = "div-products">
           <div className = "div-cards">
+            
             <div className = "div-h3-products">
               <h3 className = "h3-products">Conoce algunos de nuestros productos</h3>
             </div>
+
             <Card
               className = "card-product"
               cover = {<img alt={"oft"} src={"https://www.lasante.com.co/userfiles/2022/01/1401-Bromhexina-La-Sante.png"} />}
