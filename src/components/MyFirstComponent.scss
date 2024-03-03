@@ -386,51 +386,56 @@ text{
     justify-content: center;
     align-items: center;
     margin-top: 5.32vw;
+    position: relative;
+
+    @media (max-width: 768px) {
+        margin-top: 7.32vw;
+    }
 }
 
 .div-h3-products
 {
     position: absolute;
-    left: 23vw;
-    top: 119vw;
+    left: 24vw;
+    top: -4vw;
     width: 48vw;
-    height: 8vw;
+    height: 6vw;
     background-color: white;
 
     @media (max-width: 768px) {
         width: 78vw;
-        height: 10vw;
-        left: 6vw;
+        height: 8.6vw;
+        left: 10vw;
+        top: -7vw;
     }
 }
 
 .h3-products{
-    margin-bottom: 60px;
     margin-left: 30px;
     position: relative;
     width: 44.5vw;
-    height: 3.3vw;
-    font-size: 30px;
+    height: 3.1vw;
+    font-size: 2vw;
     font-weight: bold;
     color: #02275c;
-    line-height: 45px;
     text-align: center;
     background-color: #ffb71b;
     border-radius: 40px;
+
+    @media screen and (max-width: 768px) {
+        //margin-top: 20%;
+        margin-left: 25px;
+        width: 71vw;
+        height: 5.5vw;
+        font-size: 3.7vw;
+    }
 }
 
 .card-product {
     width: 40vw;
-    margin: 4px;
-    height: 27.6vw; 
-    width: 31.93vw;
-    //margin: 0.21vw;
+    margin: 4.2px;
+    margin-top: 3.5vw;
     height: 21.28vw;
-
-    .ant-card-cover img
-    {
-        margin-top: 20px;
-    }
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
@@ -453,13 +458,11 @@ text{
 }
 
 .div-info {
-    display: flex;
-    margin-top: -23px;
+    margin-top: 80px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    justify-content: space-around;
 }
 
 .div-info-card {
@@ -476,8 +479,7 @@ text{
     //padding-bottom: 10px;
     margin-right: 30px;
     width: 24vw;
-    flex-direction: column;
-    border: white;
+
 
     .ant-card-cover img
     {
@@ -538,47 +540,6 @@ text{
     position: absolute;
     left: -1vw;
     top: 22.8vw;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    width: 25.8vw;
-    height: 5.8vw;
-}
-    
-.subdiv-info-1 {
-    background: rgba(0, 28, 108, 0.5019607843);
-    position: absolute;
-    left: -0.8vw;
-    top: 19vw;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    width: 25.6vw;
-    height: 9.6vw;
-}
-
-.subdiv-info-2 {
-    background: #001C6C80;
-    position: absolute;
-    left: 35.2vw;
-    top: 183.9vw;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    width: 26.3vw;
-    height: 7.6vw;
-}
-
-.subdiv-info-3 {
-    background: #001C6C80;
-    position: absolute;
-    left: 61.5vw;
-    top: 185.7vw;
-    left: 61.5vw;
-    top: 185.7vw;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
