@@ -356,6 +356,17 @@ text{
     }
 }
 
+.button-img-2
+{
+    font-size: 1.3vw;
+    color: white;
+    background-color: #ffb71b;
+    margin-left: 10px;
+    margin-top: 17px;
+    width: 20vw;
+    height: 3vw;
+}
+
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
 
 .div-products{
@@ -366,9 +377,23 @@ text{
     margin-top: 5.32vw;
 }
 
+.div-h3-products
+{
+    position: absolute;
+    left: 27vw;
+    top: 120vw;
+    width:48vw;
+    background-color: white;
+}
+
 .h3-products{
+    margin-bottom: 60px;
+    margin-left: 30px;
     margin-bottom: 3.19vw;
     position: relative;
+    width: 44.5vw;
+    height: 3.3vw;
+    font-size: 30px;
     width: 34.59vw;
     height: 2.66vw;
     font-size: 1.59vw;
@@ -381,6 +406,10 @@ text{
 }
 
 .card-product {
+    width: 40vw;
+    margin: 4px;
+    height: 400px;
+    margin-top: 80px; 
     width: 31.93vw;
     margin: 0.21vw;
     height: 21.28vw;
@@ -389,6 +418,14 @@ text{
 .div-cards {
     display: flex;
     flex-direction: row;
+    margin-bottom: 100px;
+    border-top: 2px solid #ffb71b;
+    margin-top: 0px;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
     margin-bottom: 5.32vw;
     border-top: 1px solid #ffb71b;
 }
@@ -401,9 +438,35 @@ text{
 .div-info-card {
     display: flex;
     flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-info {
+    height: 100px;
+    //padding-bottom: 10px;
+    margin-right: 30px;
+    width: 24vw;
+    flex-direction: column;
+    border: white;
+
+    .ant-card-cover img
+    {
+        border-start-start-radius: 0px;
+        border-start-end-radius: 0px;
+        border-end-end-radius: 0px;
+        border-end-start-radius: 0px;
+    }
+
+    .ant-card-head-title
+    {
+        font-size: 30px;
+        color: #001A70;
+        font-weight: bold;
+        margin-left: -24px; 
+        margin-bottom: 10px;
+    }
     height: 5.32vw;
     padding-bottom: 0.53vw;
     margin-right: 1.59vw;
@@ -415,13 +478,43 @@ text{
     color: #001A70;
 }
 
-.subdiv-info {
+.subdiv-info-1 {
     background: #001C6C80;
     position: absolute;
+    left: 9.6vw;
+    top: 181.9vw;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-start;
+    width: 25.6vw;
+    height: 9.6vw;
+}
+
+.subdiv-info-2 {
+    background: #001C6C80;
+    position: absolute;
+    left: 35.2vw;
+    top: 183.9vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 26.3vw;
+    height: 7.6vw;
+}
+
+.subdiv-info-3 {
+    background: #001C6C80;
+    position: absolute;
+    left: 61.5vw;
+    top: 185.7vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 25.8vw;
+    height: 5.8vw;
     width: 19.42vw;
     height: 8vw;
     top: 163.91vw;
@@ -429,15 +522,25 @@ text{
 }
 
 .text-info {
-    font-size: 0.7vw;
-    color: #FFF;
-    width: 48vw;
+    font-size: 1.1vw;
+    color: white;
+    margin-left: 20px;
+    width: 24vw;
+    margin-top: 18px;
 }
 
 .button-info-1 {
     font-size: 1.3vw;
     color: white;
     background-color: #ffb71b;
+    width: 10vw;
+    margin-top: 340px;
+    height: auto;
+
+    border-start-start-radius: 3px;
+    border-start-end-radius: 3px;
+    border-end-end-radius: 3px;
+    border-end-start-radius: 3px;
     margin-left: 6.38vw;
     margin-top: 12.77vw;
 }
@@ -452,6 +555,7 @@ text{
     width: 20vw;
     height: 3vw;
 }
+
 
 .div-publications {
     display: flex;
