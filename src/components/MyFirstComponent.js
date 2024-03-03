@@ -143,17 +143,18 @@ export const MyFirstComponent = () => {
         <div className = "div-products">
           <h3 className = "h3-products">Conoce algunos de nuestros productos</h3>
           <div className = "div-cards">
-            <div className = "div-h3-products">
-            </div>
             <Card
               className = "card-product"
-              cover = {<img alt={"oft"} src={"https://www.lasante.com.co/userfiles/2022/01/1401-Bromhexina-La-Sante.png"} />}
+              cover = {<img alt={"oft"} src={"https://www.lasante.com.co/userfiles/2022/01/1401-Acetaminofen-La-Sante.png"} />}
             ></Card>
+            <div className = "div-h3-products">
+            </div>
             <Card
               className = "card-product"
               cover = {<img alt={"oft"} src={"https://www.lasante.com.co/userfiles/2022/01/1401-Acetaminofen-La-Sante.png"} />}
             ></Card>
           </div>
+        </div>
 
           <div className = "div-info">
             <div className = "div-info-card">
@@ -162,9 +163,9 @@ export const MyFirstComponent = () => {
                 title = "Infecciones virales"
                 cover = {<img alt={"oft"} src={"https://www.lasante.com.co/userfiles/2022/02/WebLS_FotoBlog_InfVirales.jpg"} />}
               ></Card>
-              <div className = "subdiv-info-1">
-                <text className = "text-info">Infecciones virales Causadas por virus, que son gérmenes muy pequeños, compuestos de material genético (ADN, ARN) con un recubrimiento de proteínas. Los virus pueden causar enfermedad</text>
-              </div>
+                <div className = "subdiv-info-1">
+                  <text className = "text-info">Infecciones virales Causadas por virus, que son gérmenes muy pequeños, compuestos de material genético (ADN, ARN) con un recubrimiento de proteínas. Los virus pueden causar enfermedad</text>
+                </div>
               <Button className = "button-info-1" type="primary">Leer más</Button>
             </div>
             <div className = "div-info-card">
@@ -178,7 +179,6 @@ export const MyFirstComponent = () => {
               </div>
               <Button className = "button-info-1" type="primary">Leer más</Button>
             </div>
-
             <div className = "div-info-card">
               <Card
                 className = "card-info"
@@ -189,10 +189,11 @@ export const MyFirstComponent = () => {
                 <text className = "text-info">Tips de prevención Covid 19 en tu vehículo y para tu mascota</text>
               </div>
               <Button className = "button-info-1" type="primary">Leer más</Button>
+              <div className = "subdiv-info-3">
+                <text className = "text-info">Tips de prevención Covid 19 en tu vehículo y para tu mascota</text>
+              </div>
             </div>
-
           </div>
-        </div>
         <div className = "div-publications">
           <h3 className = "h3-products">Últimas publicaciones</h3>
           <div className = "div-cards-publi">
