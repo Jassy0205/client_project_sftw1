@@ -391,17 +391,8 @@ text{
 .div-h3-products
 {
     position: absolute;
-    left: 27vw;
-    top: 120vw;
-    width:48vw;
-    background-color: white;
-}
-
-.div-h3-products
-{
-    position: absolute;
     left: 23vw;
-    top: -4vw;
+    top: 119vw;
     width: 48vw;
     height: 8vw;
     background-color: white;
@@ -431,11 +422,15 @@ text{
 .card-product {
     width: 40vw;
     margin: 4px;
-    height: 27.6vw;
-    margin-top: 80px; 
+    height: 27.6vw; 
     width: 31.93vw;
-    margin: 0.21vw;
+    //margin: 0.21vw;
     height: 21.28vw;
+
+    .ant-card-cover img
+    {
+        margin-top: 20px;
+    }
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
@@ -459,7 +454,12 @@ text{
 
 .div-info {
     display: flex;
-    flex-direction: row;
+    margin-top: -23px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-around;
 }
 
 .div-info-card {
@@ -468,6 +468,7 @@ text{
     align-content: space-around;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .card-info {
@@ -494,33 +495,6 @@ text{
         margin-left: -24px; 
         margin-bottom: 10px;
     }
-    height: 100px;
-    //padding-bottom: 10px;
-    margin-right: 30px;
-    width: 24vw;
-    flex-direction: column;
-    border: white;
-
-    .ant-card-cover img
-    {
-        border-start-start-radius: 0px;
-        border-start-end-radius: 0px;
-        border-end-end-radius: 0px;
-        border-end-start-radius: 0px;
-    }
-
-    .ant-card-head-title
-    {
-        font-size: 30px;
-        color: #001A70;
-        font-weight: bold;
-        margin-left: -24px; 
-        margin-bottom: 10px;
-    }
-    height: 5.32vw;
-    padding-bottom: 0.53vw;
-    margin-right: 1.59vw;
-    width:17.5vw;
 
     @media screen and (max-width: 768px) {
         font-size: 10px;
@@ -573,10 +547,10 @@ text{
 }
     
 .subdiv-info-1 {
-    background: #001C6C80;
+    background: rgba(0, 28, 108, 0.5019607843);
     position: absolute;
-    left: 9.6vw;
-    top: 181.9vw;
+    left: -0.8vw;
+    top: 19vw;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -614,11 +588,6 @@ text{
 }
 
 .text-info {
-    font-size: 1.1vw;
-    color: white;
-    margin-left: 20px;
-    width: 24vw;
-    margin-top: 18px;
     font-size: 1.1vw;
     color: white;
     margin-left: 20px;
@@ -809,6 +778,7 @@ text{
 .btn-networks {
     margin-top: 0.53vw;
 }
+
 @media (max-width: 950px) {
 
     .card-info {
