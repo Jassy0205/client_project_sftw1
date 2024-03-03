@@ -183,6 +183,112 @@ export const MyFirstComponent = () => {
             </div>
           </div>
         </div>
+        <div className = "div-publications">
+          <h3 className = "h3-products">Conoce algunos de nuestros productos</h3>
+          <div className = "div-cards-publi">
+          <Card
+            className = "card-publication"
+            hoverable
+            cover = {<img alt={"oft"} src={"https://scontent.cdninstagram.com/v/t39.30808-6/429568131_713350994284748_7717528814129539924_n.jpg?stp=cp6_dst-jpg_e15&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=108&_nc_ohc=Xi1Z5BpQyQsAX_BMzgT&edm=APs17CUAAAAA&ccb=7-5&ig_cache_key=MzMxMzAwNjQ5MzA5NzU2MDkyNQ%3D%3D.2-ccb7-5&oh=00_AfD-07bDHjZYqVWL4CnT_ovvUXcYK05VXYW1UCe6H7fN7A&oe=65E87C1C&_nc_sid=10d13b"} />}
+          ></Card>
+          <Card
+            className = "card-publication"
+            hoverable
+            cover = {<img alt={"oft"} src={"https://scontent.cdninstagram.com/v/t39.30808-6/428639785_709744621312052_903823983237719084_n.jpg?stp=cp6_dst-jpg_e15&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=108&_nc_ohc=0HsrFr8qd38AX8jKQdH&edm=APs17CUAAAAA&ccb=7-5&ig_cache_key=MzMwNzkxMDMwMTkwOTE5Njg0Mw%3D%3D.2-ccb7-5&oh=00_AfBj1ubHtfSOHNqIBeZXjnKPtd3vz8zaqVeqPsH0IDBGnw&oe=65E93320&_nc_sid=10d13b"} />}
+          ></Card>
+          <Card
+            className = "card-publication"
+            hoverable
+            cover = {<img alt={"oft"} src={"https://scontent.cdninstagram.com/v/t39.30808-6/428604620_709271631359351_5912232672135830737_n.jpg?stp=cp6_dst-jpg_e15&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=111&_nc_ohc=REUdldza6ZEAX8meE9X&edm=APs17CUAAAAA&ccb=7-5&ig_cache_key=MzMwNzIyNzM2NzMxNDAzMzc5Mg%3D%3D.2-ccb7-5&oh=00_AfB_NRj-SfH3LRWfm4fgO-UIiENIMLm99f4byT2N1VVSxA&oe=65E7920D&_nc_sid=10d13b"} />}
+          ></Card>
+          <Card
+            className = "card-publication"
+            hoverable
+            cover = {<img alt={"oft"} src={"https://scontent.cdninstagram.com/v/t39.30808-6/426380437_705928798360301_7897332144964204623_n.jpg?stp=dst-jpg_e15&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=105&_nc_ohc=vUElnxkBcacAX8a96T7&edm=APs17CUAAAAA&ccb=7-5&ig_cache_key=MzMwMjgwNTc5MDgyMzgwMjE2Ng%3D%3D.2-ccb7-5&oh=00_AfCSQLVBPoTz8TzqMJyLV2xMtUs__FP4uyGXI5OdgqopKQ&oe=65E78180&_nc_sid=10d13b"} />}
+          ></Card>
+          </div>
+          <div className = "div-cards-publi-1">
+          <Card
+            className = "card-publication"
+            hoverable
+            cover = {<img alt={"oft"} src={"https://scontent.cdninstagram.com/v/t39.30808-6/428062858_705276241758890_7061742919192206252_n.jpg?stp=dst-jpg_e15&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=102&_nc_ohc=BNS22F4e2aAAX8VCUxH&edm=APs17CUAAAAA&ccb=7-5&ig_cache_key=MzMwMTk5NTIzNTY4MDEzMDg2MA%3D%3D.2-ccb7-5&oh=00_AfAP2RZzQwJ_fQB2JdN_ZAxMNkHybU2wYMOokSZiWdbTWA&oe=65E84855&_nc_sid=10d13b"} />}
+          ></Card>
+          <Card
+            className = "card-publication"
+            hoverable
+            cover = {<img alt={"oft"} src={"https://scontent.cdninstagram.com/v/t39.30808-6/427765932_704703888482792_3344076518561156260_n.jpg?stp=cp6_dst-jpg_e15&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=108&_nc_ohc=rZ-E5kykPvQAX8Tc59X&edm=APs17CUAAAAA&ccb=7-5&ig_cache_key=MzMwMTI2ODQ3MDMxMDI3NTcwNw%3D%3D.2-ccb7-5&oh=00_AfACFS-7avrxxIhqq4vLlYUK40LIRu-jzW8X9hj2A52ZGw&oe=65E75467&_nc_sid=10d13b"} />}
+          ></Card>
+          <Card
+            className = "card-publication"
+            hoverable
+            cover = {<img alt={"oft"} src={"https://scontent.cdninstagram.com/v/t39.30808-6/425799735_701170642169450_6523076475141709304_n.jpg?stp=cp6_dst-jpg_e15&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=102&_nc_ohc=DBYA62o4auUAX9pzroX&edm=APs17CUAAAAA&ccb=7-5&ig_cache_key=MzI5Njk2MDAxNjU4MzgwMzQ5Ng%3D%3D.2-ccb7-5&oh=00_AfAH1k2KnGp8Vvy48_mE_y8d-r6woWYEBVkGiu4EArH3uA&oe=65E92C75&_nc_sid=10d13b"} />}
+          ></Card>
+          <Card
+            className = "card-publication"
+            hoverable
+            cover = {<img alt={"oft"} src={"https://scontent.cdninstagram.com/v/t39.30808-6/424625657_697126202573894_1070464027790532210_n.jpg?stp=dst-jpg_e15&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=102&_nc_ohc=guZQCZt8kGoAX8BM4Dd&edm=APs17CUAAAAA&ccb=7-5&ig_cache_key=MzI5MTgxNTY4ODM0ODA1OTQ2MA%3D%3D.2-ccb7-5&oh=00_AfCRkHYnOD9nhJaerQovgfGAsLIdZdAn8SSIY7BZ0TaGrw&oe=65E8E3EF&_nc_sid=10d13b"} />}
+          ></Card>
+          </div>
+        </div>
+        <div className = "div-allies">
+          <h3 className = "h3-products">Nuestros aliados</h3>
+          <div className = "div-logo">
+            <img 
+              src={"https://www.lasante.com.co/userfiles/2022/04/logo-cafam.png"}
+              alt={"logo"}
+              className="img-allies"
+            ></img>
+            <img
+              src={"https://www.lasante.com.co/userfiles/2022/04/logo-colsusidio@2x.png"}
+              alt={"logo"}
+              className="img-allies"
+            ></img>
+            <img
+              src={"https://www.lasante.com.co/userfiles/2022/05/logo-rebaja.png"}
+              alt={"logo"}
+              className="img-allies"
+            ></img>
+            <img
+              src={"https://www.lasante.com.co/userfiles/2022/04/logo-lopido@2x.png"}
+              alt={"logo"}
+              className="img-allies"
+            ></img>
+            <img
+              src={"https://www.lasante.com.co/userfiles/2022/05/LOGO-COMFANDI.png"}
+              alt={"logo"}
+              className="img-allies"
+            ></img>
+            <img
+              src={"https://www.lasante.com.co/userfiles/2022/10/droxi.png"}
+              alt={"logo"}
+              className="img-allies"
+            ></img>
+          </div>
+        </div>
+        <div className = "footer">
+          <img
+            src = {"https://www.lasante.com.co/userfiles/2020/05/logo-la-sante-naranja-300x96.png"}
+            alt = {"logo"}
+            className = "footer-img"
+          ></img>
+          <div>
+            <h2 className = "footer-title">Suscribete</h2>
+            <Input className="email" placeholder="Email" onSearch={onSearch} enterButton/>
+            <Button type="primary" className = "btn-sub">Suscribirse</Button>
+            <div className = "div-contact">
+              <p className = "footer-text-1">Síguenos en nuestras redes sociales</p>
+              <Button className = "btn-networks" shape="circle" icon={<FacebookOutlined />}></Button>
+              <Button className = "btn-networks" shape="circle" icon={<InstagramOutlined />}></Button>
+            </div>
+          </div>
+          <div>
+            <h2 className = "footer-title">Contacto</h2>
+            <p className = "footer-text">601 3647500 Cra 65 B No. 13-13 Zona industrial Montevideo, Bogotá</p>
+            <p className = "footer-text">Email: servicioalcliente@lasante.com.co</p>
+            <p className = "footer-text">Política de protección de datos personales</p>
+            <p className = "footer-text">Código de ética y cumplimiento</p>
+          </div>
+        </div>
     </>
   );
 };
